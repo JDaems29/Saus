@@ -64,6 +64,7 @@ function updatePuntjes(puntjes, letter, saus) {
   return nieuwePuntjes;
 }
 
+//functie om de raden knop uit te zetten
 function disableButton() {
   document.getElementById("raden").disabled = true;
 }
